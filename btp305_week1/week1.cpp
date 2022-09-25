@@ -1,15 +1,19 @@
 #include <iostream>
 using namespace std;
 
-constexpr int getSize(int seed) {
-    return seed * 2;
-}
+int g_data;
+
+void display();
+
+//constexpr int getSize(int seed) {
+  //  return seed * 2;
+//}
 
 //int main() {
 int main(int argc, char** argv) {
     //char str[]{"hello"};
-    for (int i = 0; i < argc; ++i)
-        cout << i << ". " << argv[i] << endl;
+    //for (int i = 0; i < argc; ++i)
+    //    cout << i << ". " << argv[i] << endl;
 
 
 
@@ -24,4 +28,8 @@ int main(int argc, char** argv) {
     //double arr[SIZE]{};
 
     // double arr[getSize(iSize)]{};
+
+    // TODO: Linking
+    g_data = 10;
+    display();
 }
