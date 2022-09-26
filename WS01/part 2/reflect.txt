@@ -1,0 +1,29 @@
+Name: Lwin Yonal Mateo Lopez
+Email: lymateo-lopez@myseneca.ca
+Student ID: 134710201
+Date: 09-16-2022
+
+
+
+The keyword constexpr(constant expression) lets a value constant that it can be tested in compile time. In other words it helps 
+a program run faster and use less memory. 
+
+Internal linkage are related to things only in a scope of a translation unit (an implementation file).
+While External linkage are things or entities that are declare in a scope within another scope, for this
+linkage a thing exists through the whole translationg unit (combination of other object files).
+
+Static variables are variables that are allocated only one time that it is used in the entire program. When declaring a counter
+variable to display the extracted data from a file, it was able to have a value that can be executed one time when ever I call
+this function.
+
+In part 2, the only changes I did was in the void Cars::read(std::istream& is). What I did was declare and define local variables
+that I could use to extract data from a file and put them in the data members of Cars class.
+
+
+In Workshop 1 part 2 the rule of 3 is necessary because it ensures better code. It also makes an object assigned to another 
+object in a secure way. When an object wants an extraction, the rule of three is applied to make copies to another object.
+
+
+The only challenge I had was to declare and define global variables for the entire program to execute using the 'extern' keyword.
+The solution was to declare the global variables using 'extern' only in the header files, then I initilized them by typing 
+like declaring basic variable (double 'variable_name' = 0)
