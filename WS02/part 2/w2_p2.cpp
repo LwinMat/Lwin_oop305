@@ -1,3 +1,12 @@
+/*
+Name: Lwin Yonal Mateo Lopez
+Email: lymateo-lopez@myseneca.ca
+Student ID: 134710201
+Date: 09-25-2022
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+*/
+
 // Workshop 2 - Fall 2022
 // w2_p1.cpp
 // Michael Huang
