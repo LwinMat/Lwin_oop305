@@ -1,0 +1,2 @@
+C:\Users\lwiny\OneDrive\Documents\oop305\BTP-Workshops\WS06\part 2\x64\Debug\w6_p2.exe
+C:\Users\lwiny\OneDrive\Documents\oop305\BTP-Workshops\WS06\part 2\x64\Debug\w6_p2.pdb
